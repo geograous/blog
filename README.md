@@ -1,2 +1,2 @@
 # blog
-personal blog
+gairui's personal blog.
