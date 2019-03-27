@@ -1,3 +1,9 @@
+---
+title: babel 浅析
+date: "2019-03-01T22:12:03.284Z"
+description: ""
+---
+
 在分析 [babel](https://github.com/babel/babel) 之前，肯定得介绍一下 [ecmascript 语言规范](http://www.ecma-international.org/ecma-262/9.0/#sec-intro) 。这个文档包含了 es9 的各个方面，包括代码编码、语法规范、内置库的功能逻辑、语句和表达式的算法以及内存分配等内容。
 
 babel 和其他编译器一样，工作流程分为了词法分析、语法分析、中间代码优化、生成中间代码这些过程。不过 babel 最终生成的代码是较低版本的 javascript 而不是机器码，更多时候中间代码优化这步的工作是将浏览器暂不支持的高版本的语法、处于提案阶段的语法转化为低版本的语法。

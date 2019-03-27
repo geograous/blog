@@ -1,3 +1,9 @@
+---
+title: EJS 浅析
+date: "2017-05-01T22:12:03.284Z"
+description: ""
+---
+
 ejs是一款历史悠久的模版，具有简单、性能好、使用广泛的特点，可以被用到很多的地方。比如cms系统、ssr等。这里会介绍ejs项目的[源码](https://github.com/mde/ejs)。使用方法详见[项目](https://github.com/mde/ejs)的readme，或者[这里](http://ejs.co)。
 
 **哲学**
